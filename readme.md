@@ -38,5 +38,33 @@ The program will print to the console the rational answers to the two optimisati
 outlined in parts one and two of the assignment. If the optional output filename is given, a text
 file will be generated containing the input graph and the rational solutions to both LPs.
 
+A shortened file output for a graph will look something like this:
+
+```bash
+*** INPUT GRAPH ***
+Node: A Connected to: ['B', 'D', 'F']
+...
+Node: H Connected to: ['E', 'F', 'G']
+
+
+*** Fractional Clique Cover Number ***
+Clique with nodes:[] has x_s value 0
+Clique with nodes:['A'] has x_s value 0
+...
+Clique with nodes:['F', 'G', 'H'] has x_s value 0
+Clique with nodes:['E', 'F', 'G', 'H'] has x_s value 1
+Optimal Fractional Clique Cover Number π*(G): 3
+
+
+*** Shannon Entropy ***
+Subset with nodes:[] has x_v value 0
+Subset with nodes:['A'] has x_v value 1
+...
+Subset with nodes:['C', 'E', 'F', 'G', 'H'] has x_v value 4
+Subset with nodes:['A', 'B', 'C', 'D', 'E', 'F'] has x_v value 4
+Subset with nodes:['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'] has x_v value 5
+Optimal Shannon Entropy η(G): 5
+```
+
 The program will exit if there is an error reading from the input file, or if the input file is not
 provided.
