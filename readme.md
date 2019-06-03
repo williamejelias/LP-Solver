@@ -11,7 +11,7 @@ to install them:
 pip3 install networkx ortools
 ```
 
- ##Running the program
+## Running the program
 
 Run the linear optimisation solver program with the following command in a terminal.
 Replace `filename.txt' and `optional filename.txt' with your own input text file and optional
