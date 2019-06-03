@@ -60,8 +60,8 @@ Optimal Fractional Clique Cover Number π*(G): 3
 Subset with nodes:[] has x_v value 0
 Subset with nodes:['A'] has x_v value 1
 ...
-Subset with nodes:['C', 'E', 'F', 'G', 'H'] has x_v value 4
-Subset with nodes:['A', 'B', 'C', 'D', 'E', 'F'] has x_v value 4
+Subset with nodes:['A', 'C', 'D', 'E', 'F', 'G', 'H'] has x_v value 5
+Subset with nodes:['B', 'C', 'D', 'E', 'F', 'G', 'H'] has x_v value 5
 Subset with nodes:['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'] has x_v value 5
 Optimal Shannon Entropy η(G): 5
 ```
