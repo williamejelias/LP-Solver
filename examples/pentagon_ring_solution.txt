@@ -1,0 +1,56 @@
+*** INPUT GRAPH ***
+Node: 1 Connected to: ['2', '5']
+Node: 2 Connected to: ['1', '3']
+Node: 3 Connected to: ['2', '4']
+Node: 4 Connected to: ['3', '5']
+Node: 5 Connected to: ['1', '4']
+
+
+*** Fractional Clique Cover Number ***
+Clique with nodes:[] has x_s value 0
+Clique with nodes:['1'] has x_s value 0
+Clique with nodes:['2'] has x_s value 0
+Clique with nodes:['3'] has x_s value 0
+Clique with nodes:['4'] has x_s value 0
+Clique with nodes:['5'] has x_s value 0
+Clique with nodes:['1', '2'] has x_s value 1/2
+Clique with nodes:['1', '5'] has x_s value 1/2
+Clique with nodes:['2', '3'] has x_s value 1/2
+Clique with nodes:['3', '4'] has x_s value 1/2
+Clique with nodes:['4', '5'] has x_s value 1/2
+Optimal Fractional Clique Cover Number π*(G): 5/2
+
+*** Shannon Entropy ***
+Subset with nodes:[] has x_v value 0
+Subset with nodes:['1'] has x_v value 1
+Subset with nodes:['2'] has x_v value 1
+Subset with nodes:['3'] has x_v value 1
+Subset with nodes:['4'] has x_v value 1
+Subset with nodes:['5'] has x_v value 1
+Subset with nodes:['1', '2'] has x_v value 3/2
+Subset with nodes:['1', '3'] has x_v value 2
+Subset with nodes:['1', '4'] has x_v value 2
+Subset with nodes:['1', '5'] has x_v value 3/2
+Subset with nodes:['2', '3'] has x_v value 3/2
+Subset with nodes:['2', '4'] has x_v value 2
+Subset with nodes:['2', '5'] has x_v value 2
+Subset with nodes:['3', '4'] has x_v value 3/2
+Subset with nodes:['3', '5'] has x_v value 2
+Subset with nodes:['4', '5'] has x_v value 3/2
+Subset with nodes:['1', '2', '3'] has x_v value 2
+Subset with nodes:['1', '2', '4'] has x_v value 5/2
+Subset with nodes:['1', '2', '5'] has x_v value 2
+Subset with nodes:['1', '3', '4'] has x_v value 5/2
+Subset with nodes:['1', '3', '5'] has x_v value 5/2
+Subset with nodes:['1', '4', '5'] has x_v value 2
+Subset with nodes:['2', '3', '4'] has x_v value 2
+Subset with nodes:['2', '3', '5'] has x_v value 5/2
+Subset with nodes:['2', '4', '5'] has x_v value 5/2
+Subset with nodes:['3', '4', '5'] has x_v value 2
+Subset with nodes:['1', '2', '3', '4'] has x_v value 5/2
+Subset with nodes:['1', '2', '3', '5'] has x_v value 5/2
+Subset with nodes:['1', '2', '4', '5'] has x_v value 5/2
+Subset with nodes:['1', '3', '4', '5'] has x_v value 5/2
+Subset with nodes:['2', '3', '4', '5'] has x_v value 5/2
+Subset with nodes:['1', '2', '3', '4', '5'] has x_v value 5/2
+Optimal Shannon Entropy η(G): 5/2
